@@ -18,5 +18,9 @@ $(call inherit-product, device/nvidia/concord/device.mk)
 
 PRODUCT_CHARACTERISTICS := tablet
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    device/nvidia/galen_tab/overlay
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
