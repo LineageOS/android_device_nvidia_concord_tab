@@ -15,3 +15,6 @@
 #
 
 include device/nvidia/concord/BoardConfig.mk
+
+# Fingerprint override
+BUILD_FINGERPRINT := NVIDIA/concord/concord:11/RQ1A.210105.003/7094531_2914.3416:user/release-keys
